@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    color: green;
+    background-color: rgb(245, 245, 123);
+    font-family: 'Courier New', sans-serif;
+    padding: 16px;
+    margin: 24px auto;
+}
+
+.title.home {
+    width: 800px;
+    font-size: 96px;
+    border: 4px red solid;
+}
+
+.title.recipe {
+    width: 600px;
+    font-size: 48px;
+}
+
+.links-list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    list-style: none;
+    background-color: lightblue;
+    margin: 12px;
+    padding: 16px;
+    width: 500px;
+}
+
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+.links-list .list {
+    background-color: rgb(154, 209, 163);
+    border: 2px rgb(229, 255, 0) solid;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 12px;
+    width: 200px;
+}
+
+.ingredients.list {
+    background-color: rgb(245, 245, 123);
+    padding: 12px 24px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.image {
+    display: block;
+    margin: 10px auto;
+}
+
+
+h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 36px;
+   color: rgb(214, 71, 15);
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.recipe-body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    border: 2px red solid;
+    margin: 12px;
+    padding: 16px;
+}
+
+.ingredients.list li {
+    margin: 3px;
+}
+
+.home-link {
+    margin: 12px;
+    border: 2px rgb(96, 214, 111) solid;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgb(245, 245, 123);
+}
